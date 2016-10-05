@@ -1,0 +1,44 @@
+/****************************************************************************
+* 文 件 名: main.c
+* 描    述: 将采集到的温湿度通过串口发送到串口调试助手上显示 115200 8N1
+****************************************************************************/
+#include <ioCC2530.h>
+#include <string.h>
+#include "INTUART.H" 
+#include "DHT11.H" 
+
+/****************************************************************************
+* 程序入口函数
+****************************************************************************/
+void main(void)
+{  
+    char temp[3]; 
+    char humidity[3];   
+    char strTemp[13]="Temperature:";
+    char strHumidity[10]="Humidity:";
+    setSystemCLK();
+    Delay_ms(1000);          //让设备稳定
+    initUart();              //串口初始化
+    while(1)
+    {         
+        memset(temp, 0, 3);
+        memset(humidity, 0, 3);
+        DHT11();             //获取温湿度
+
+        //将温湿度的转换成字符串
+        temp[0]=wendu_shi+0x30;
+        temp[1]=wendu_ge+0x30;
+        humidity[0]=shidu_shi+0x30;
+        humidity[1]=shidu_ge+0x30;
+        
+        //获得的温湿度通过串口输出到电脑显示
+        sendString(strTemp, 12);
+        sendString(temp, 2);
+        sendString("   ", 3);
+        sendString(strHumidity, 9);
+        sendString(humidity, 2);
+        sendString("\n", 1);
+        
+        Delay_ms(1000);  //延时，2S读取1次 
+    }
+}

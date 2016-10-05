@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3861507661</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\DHT11.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DHT11.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x6e29;&#x6e7F;&#x5eA6;&#x4F20;&#x611F;&#x5668;DHT11.pbd</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\INTUART.pbi</file>
+      <file>$PROJ_DIR$\INTUART\INTUART.h</file>
+      <file>$PROJ_DIR$\INTUART\INTUART.c</file>
+      <file>$PROJ_DIR$\DHT11\DHT11.C</file>
+      <file>$PROJ_DIR$\DHT11\DHT11.H</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\&#x6e29;&#x6e7F;&#x5eA6;&#x4F20;&#x611F;&#x5668;DHT11.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\DHT11&#x6e29;&#x6e7F;&#x5eA6;&#x4F20;&#x611F;&#x5668;.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\INTUART.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\&#x6e29;&#x6e7F;&#x5eA6;&#x4F20;&#x611F;&#x5668;DHT11.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 0 5 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\INTUART\INTUART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 6 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\DHT11\DHT11.C</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 14 12 6 9</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 11 14 12 6 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\&#x6e29;&#x6e7F;&#x5eA6;&#x4F20;&#x611F;&#x5668;DHT11.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 1 17 13 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\DHT11&#x6e29;&#x6e7F;&#x5eA6;&#x4F20;&#x611F;&#x5668;.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 0 5 18</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2616262772</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs/>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\CHECKTIME\CHECKTIME.h</file>
+      <file>$PROJ_DIR$\CHECKtIME\CHECKTIME.c</file>
+      <file>$PROJ_DIR$\LED\LED.c</file>
+      <file>$PROJ_DIR$\LED\LED.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Release\Obj\CHECKTIME.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CHECKTIME.r51</file>
+      <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
+      <file>$PROJ_DIR$\Release\Exe\&#x5B9A;&#x65F6;&#x5668;T1&#x67e5;&#x8Be2;&#x65B9;&#x5F0F;.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\&#x5B9A;&#x65F6;&#x5668;T1&#x67e5;&#x8Be2;&#x65B9;&#x5F0F;.pbd</file>
+      <file>$PROJ_DIR$\Release\Exe\&#x5B9A;&#x65F6;&#x5668;T1&#x67e5;&#x8Be2;&#x65B9;&#x5F0F;.a51</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\LED.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r51</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\LED.r51</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CHECKtIME\CHECKTIME.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LED\LED.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 3 0</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 11 3 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\&#x5B9A;&#x65F6;&#x5668;T1&#x67e5;&#x8Be2;&#x65B9;&#x5F0F;.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 16 6 18 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\&#x5B9A;&#x65F6;&#x5668;T1&#x67e5;&#x8Be2;&#x65B9;&#x5F0F;.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 5 14 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\&#x5B9A;&#x65F6;&#x5668;T1&#x67e5;&#x8Be2;&#x65B9;&#x5F0F;.a51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7 6 18 15 13</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

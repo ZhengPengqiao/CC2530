@@ -1,0 +1,24 @@
+#ifndef __WATCHDOG_H_
+#define __WATCHDOG_H_
+#include "ioCC2530.h"
+
+typedef enum ENUM_WATCHDOG_INTERVAL_t{
+WATCHDOG_INTERVAL_1s,
+WATCHDOG_INTERVAL_0_25s,
+WATCHDOG_INTERVAL_15_625ms,
+WATCHDOG_INTERVAL_1_9ms
+}ENUM_WATCHDOG_INTERVAL;
+
+typedef enum ENUM_WATCHDOG_MODE_t{
+  WATCHDOG_MODE_IDEL,
+  WATCHDOG_MODE_WATCHDOGMODE,
+  WATCHDOG_MODE_TIMERMODE
+}ENUM_WATCHDOG_MODE;
+
+
+
+extern void setWDTFun(void (*inWDT_fun)(void));
+extern void feetdog(void);
+extern void initWatchdog(ENUM_WATCHDOG_INTERVAL eatchdogInterval,\
+  ENUM_WATCHDOG_MODE watchdogMode);
+#endif
